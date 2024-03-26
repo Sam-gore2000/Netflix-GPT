@@ -1,10 +1,12 @@
 
-import './App.css';
+import './index.css';
+import Body from './components/Body';
+
 
 function App() {
   return (
-    <div className="text-center text-green-800 font-bold text-2xl">
-     <h1>This is netflix website</h1>
+    <div>
+      <Body/>
     </div>
   );
 }
